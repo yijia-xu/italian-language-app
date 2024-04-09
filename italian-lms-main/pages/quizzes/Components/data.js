@@ -1,0 +1,42 @@
+export const data = [
+  {
+    question: "What is the official language of Italy?",
+    option1: "Italian",
+    option2: "French",
+    option3: "Spanish",
+    option4: "German",
+    ans: 1,
+  },
+  {
+    question: "How many vowels are there in the Italian alphabet?",
+    option1: "5",
+    option2: "6",
+    option3: "7",
+    option4: "8",
+    ans: 1,
+  },
+  {
+    question: "Which of the following is NOT a Romance language closely related to Italian?",
+    option1: "Spanish",
+    option2: "Portuguese",
+    option3: "German",
+    option4: "French",
+    ans: 3,
+  },
+  {
+    question: "What is the term for the Italian alphabet?",
+    option1: "Alfabeto",
+    option2: "Alfabeto Italiano",
+    option3: "Alfabeto Romano",
+    option4: "Alfabeto Italiano Romano",
+    ans: 2,
+  },
+  {
+    question: "In Italian, what is the term for 'thank you'?",
+    option1: "Grazie",
+    option2: "Ciao",
+    option3: "Prego",
+    option4: "Buongiorno",
+    ans: 1,
+  },
+];

@@ -5,7 +5,7 @@ import {
   FcNews,
   FcConferenceCall,
   FcOrgUnit,
-  FcTodoList
+  FcTodoList, FcClapperboard
 } from "react-icons/fc";
 
 export default function Sidebar() {
@@ -83,31 +83,18 @@ export default function Sidebar() {
               </Link>
             </li>
           </div>
-          {/* <div>
-            {" "}
+          <div>
             <li className="cursor-pointer inline-flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-              <Link href="/videos">
+              <Link href="quizzes/App">
                 <div className="inline-flex">
                   <FcClapperboard className="sidebar-icon" />
                   <span className="inline-flex-1 ml-3 whitespace-nowrap">
-                    Videos
+                    Quizzes
                   </span>
                 </div>
               </Link>
             </li>
           </div>
-          <div>
-            <li className="cursor-pointer inline-flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-              <Link href="/test">
-                <div className="inline-flex">
-                  <FcAnswers className="sidebar-icon" />
-                  <span className="inline-flex-1 ml-3 whitespace-nowrap">
-                    Test
-                  </span>
-                </div>
-              </Link>
-            </li>{" "}
-          </div> */}
         </ul>
       </div>
     </aside>
