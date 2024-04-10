@@ -59,7 +59,7 @@ const Quiz = () => {
 
   return (
     <div className='container'>
-        <h1>ITA1001 Quiz 1</h1>
+        <h1>ITAL1001 Quiz 1</h1>
         <hr/>
         {result?<></>:<><h2>{index+1}. {question.question}</h2>
         <ul>
